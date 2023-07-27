@@ -1,0 +1,30 @@
+/* Estilos para el fondo y color del texto */
+.Quienes-container {
+  background: rgb(25, 61, 61);
+  color: white;
+}
+
+.contraste {
+  background: gray;
+  color: black;
+}
+
+/* Estilos para el título (h2) y párrafos */
+.Quienes-titulo {
+  color: rgb(211, 20, 155);
+  text-align: center;
+}
+
+.Quienes-parrafos {
+  color: rgb(211, 20, 155);
+}
+
+/* Estilos para el texto en contraste bajo */
+.Quienes-titulo.black {
+  color: black;
+}
+
+.Quienes-parrafos.black {
+  color: rgb(255, 255, 255);
+}
+

@@ -1,0 +1,111 @@
+
+.formulario {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0d1818;
+
+  /*se aplica un estilo a un formulario haciéndolo tener un tamaño máximo de 400px, 
+  centrado en la página, con un fondo oscuro, un borde con bordes redondeados y un poco de espacio de relleno para mejorar la apariencia visual.*/
+  }
+  
+  .formulario label {
+    display: block;
+    font-weight: bold;
+
+  /*se aplica un estilo específico a las etiquetas dentro de un elemento con la clase formulario. 
+  Las etiquetas se mostrarán en bloques y tendrán un texto más grueso debido a la propiedad "font-weight: bold"*/  
+  }
+  
+  .formulario input,
+  .formulario select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0c5b24;
+    background-color: #0b0c26;
+    color: rgb(169, 18, 129);
+
+    /*se aplica un estilo a los elementos de input y los cuadros de select dentro de un elemento con la clase "formulario". Estos elementos se extenderán al 100% del ancho, 
+    tendrán un fondo oscuro, un borde verde oscuro, y el texto dentro de ellos será de color púrpura para resaltarlos en el diseño del formulario.*/
+  }
+
+  .formulario .radio-container {
+    display: flex;
+    flex-direction: column;
+
+    /*se aplica un estilo a un contenedor con la clase radio-container dentro de un elemento con la clase formulario. 
+    Este contenedor será flexible y los elementos dentro de él se mostrarán uno debajo del otro, en una disposición vertical.*/
+  }
+  
+  
+  .formulario .radio-label {
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    width: 50px;
+    height: 2em;
+
+    /*se aplica un estilo a las etiquetas con la clase radio-label dentro de un elemento con la clase formulario.
+    Las etiquetas tendrán un tamaño de fuente legible utilizando la fuente de Roboto, no tendrán bordes visibles y tendrán un ancho fijo de 50 píxeles y una altura de 2em,
+    lo que las hará lo suficientemente grandes para ser seleccionadas fácilmente.*/
+  }
+  
+  .formulario .radio-label input[type="radio"] {
+    margin-right: 5px;
+
+  /*se aplica un estilo específico a los botones de opciones de radio  dentro de las etiquetas con la clase radio-label dentro de un elemento con la clase formulario. 
+  Estos botones tendrán un pequeño margen en el lado derecho,  lo que puede ayudar a separarlos visualmente de las etiquetas o de otros elementos cercanos,
+  mejorando así el diseño y la apariencia del formulario.*/  
+  }
+  
+ 
+
+  
+  .formulario span {
+    color: red;
+
+    /*se aplica un estilo a los elementos span dentro de un elemento con la clase formulario, haciendo que el texto dentro de estos elementos aparezca en color rojo. 
+    esto sirve para resaltar ciertos fragmentos de texto o para mostrar mensajes de error en el formulario*/
+  }
+  
+  .formulario button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /*se aplica un estilo a los botones dentro de un elemento con la clase formulario. Los botones tendrán un aspecto  con un fondo azul, texto blanco y bordes redondeados. 
+    El espacio de relleno proporciona un espacio visual entre el texto y los bordes del botón. Además, el cursor cambia a una mano cuando se coloca sobre el botón,
+    lo que indica que es interactivo y se puede hacer clic.*/
+  }
+
+  .error-message {
+    color: red;
+
+     /*se aplica un estilo a los elementos span dentro de un elemento con la clase formulario, haciendo que el texto dentro de estos elementos aparezca en color rojo. 
+    esto sirve para resaltar ciertos fragmentos de texto o para mostrar mensajes de error en el formulario*/
+  }
+
+  .label {
+    color: rgb(169, 18, 129);
+
+    /*se aplica un estilo a los elementos que tienen la clase label, haciendo que el texto dentro de estos elementos aparezca con un color personalizado  */
+  }
+  
+  .fondoFormulario {
+    background-color: #193d3d;
+
+    /*se aplica un estilo al formulario, haciendo que aparezca con un color de fondo personalizado  */
+  }
+
+  .titulo {
+    color: rgb(211, 20, 155);
+    text-align: center;
+
+    /*se aplica un estilo a los elementos que tienen la clase titulo, haciendo que el texto dentro de estos elementos aparezca en un color personalizado y que se alinee al centro.*/
+  }
+  

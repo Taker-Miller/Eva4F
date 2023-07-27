@@ -1,0 +1,27 @@
+.header-nav {
+    background-color: #6654f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    /*se aplica un estilo a un elemento con la clase header-nav, haciendo que el fondo sea de color púrpura y que los elementos internos se distribuyan horizontalmente 
+    con espacio equitativo entre ellos mediante el uso de flexbox. Además, se agrega un espacio de relleno para mejorar el aspecto visual del elemento.*/
+  }
+  
+  .header-nav a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+
+    /*se aplica un estilo a los enlaces dentro de un elemento con la clase header-nav, haciendo que el texto de los enlaces sea negro, sin subrayado, 
+    con un margen derecho para separarlos y un peso de fuente en negrita para resaltarlos*/
+  }
+  
+  .header-nav a:last-child {
+    margin-right: 0;
+
+    /*se aplica un estilo específico al último enlace dentro de un elemento con la clase header-nav, 
+    eliminando el margen derecho que normalmente se aplica a los demás enlaces dentro del mismo contenedor*/
+  }
+  

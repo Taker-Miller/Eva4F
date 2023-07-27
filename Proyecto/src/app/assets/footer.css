@@ -1,0 +1,54 @@
+.footer{
+    background-color: #6654f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: 'center';
+    height: '280px',
+
+  /*define un estilo para un elemento con la clase "footer"*/
+  
+  }
+ 
+  .contacto {
+    float: left;
+    font-size: 25px;
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+ /*hace que el elemento con la clase contacto 
+ tenga un texto más grande, tenga espacio de relleno en el lado izquierdo y la propiedad "box-sizing" ajusta el tamaño total del elemento considerando el relleno.*/ 
+
+  .donde-estamos {
+    float: left;
+    font-size: 25px;
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+   /*hace que el elemento con la clase donde-estamos 
+ tenga un texto más grande, tenga espacio de relleno en el lado izquierdo y la propiedad "box-sizing" ajusta el tamaño total del elemento considerando el relleno.*/ 
+
+  .redes-sociales {
+    float: left;
+    font-size: 25px;
+    padding-left: 22px;
+    box-sizing: border-box;
+  }
+   /*hace que el elemento con la clase redes-sociales 
+ tenga un texto más grande, tenga espacio de relleno en el lado izquierdo y la propiedad "box-sizing" ajusta el tamaño total del elemento considerando el relleno.*/ 
+
+  .div {
+    float:'left';
+    font-size: 15px;
+    padding-left: 22px;
+    color: #000000;
+    box-sizing: border-box;
+  }
+/*hace que el elemento con la clase div tenga un texto de tamaño 15px, tenga espacio de relleno en el lado izquierdo, 
+el texto se mostrará en color negro y la propiedad "box-sizing" ajusta el tamaño total del elemento considerando el relleno*/
+
+  .parrafos {
+    font-size: 15px;
+    color: white;
+  }
+  /*aplica un estilo a los elementos que tienen la clase "parrafos" haciendo que el texto tenga un tamaño de fuente de 15px y un color de texto blanco.*/

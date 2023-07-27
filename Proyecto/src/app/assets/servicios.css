@@ -1,0 +1,46 @@
+   /* Estilos para el título (h2) y párrafos */
+ .Servicios-titulo {
+    color: rgb(211, 20, 155);
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    /*se crea un contenedor  que organiza sus elementos internos de manera que haya un espacio igual entre ellos y que se encuentren en los extremos opuestos. 
+    Además, hay un margen de 20 píxeles en la parte superior del contenedor para crear un espacio visual entre el contenedor y otros elementos cercanos.*/
+
+  }
+  
+  .item {
+    flex-basis: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenido de cada item */
+  .item-content {
+    margin-bottom: 15px;
+  }
+  
+  .item-titulo {
+    color: #666;
+    font-size: 20px;
+  }
+  
+  .item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .item-valor {
+    font-size: 18px;
+    color: #666;
+  }
+  

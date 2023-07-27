@@ -1,0 +1,37 @@
+
+/* Estilos para el fondo y color del texto */
+.inicio-container {
+    background: rgb(25, 61, 61);
+    color: white;
+  }
+  
+  .contraste {
+    background: gray;
+    color: black;
+  }
+  
+  /* Estilos para el título (h2) y párrafos */
+  .inicio-titulo {
+    color: rgb(211, 20, 155);
+    text-align: center;
+  }
+  
+  .inicio-parrafos {
+    color: rgb(211, 20, 155);
+  }
+  
+  /* Estilo para el titulo en contraste bajo */
+  .inicio-titulo.black {
+    color: black;
+  }
+  
+    /* Estilo para el parrafo en contraste bajo */
+  .inicio-parrafos.black {
+    color: rgb(255, 255, 255);
+  }
+  
+  .ImagenInicio {
+    width: 200%;
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
